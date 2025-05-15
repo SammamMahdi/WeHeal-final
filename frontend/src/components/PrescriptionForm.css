@@ -1,0 +1,159 @@
+body {
+  background: #f3f6fb;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+}
+
+.prescription-form-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 36px 40px 32px 40px;
+}
+
+.prescription-form-title {
+  color: #3b82f6;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+.prescription-form-section {
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.06);
+  padding: 24px 24px 18px 24px;
+  margin-bottom: 28px;
+  border: 1px solid #e5e7eb;
+}
+
+.prescription-form-section-title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 10px;
+}
+
+.prescription-form-label {
+  font-weight: 500;
+  color: #374151;
+  margin-bottom: 6px;
+  display: block;
+}
+
+.prescription-form-input,
+.prescription-form-textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #f3f6fb;
+  font-size: 1rem;
+  margin-bottom: 14px;
+  transition: border 0.2s;
+}
+.prescription-form-input:focus,
+.prescription-form-textarea:focus {
+  border: 1.5px solid #3b82f6;
+  outline: none;
+}
+
+.prescription-form-meds-row {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.prescription-form-meds-row input {
+  flex: 1 1 0;
+  min-width: 0;
+}
+.prescription-form-meds-row .prescription-form-remove-btn {
+  margin-left: 8px;
+}
+
+.prescription-form-remove-btn {
+  background: #ef4444;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  align-self: center;
+  margin-left: 6px;
+  transition: background 0.2s;
+}
+.prescription-form-remove-btn:hover {
+  background: #b91c1c;
+}
+
+.prescription-form-add-btn {
+  background: #22c55e;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  transition: background 0.2s;
+}
+.prescription-form-add-btn:hover {
+  background: #16a34a;
+}
+
+.prescription-form-submit-btn {
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 32px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 18px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition: background 0.2s;
+}
+.prescription-form-submit-btn:hover {
+  background: #2563eb;
+}
+
+.prescription-form-error {
+  color: #ef4444;
+  margin-bottom: 12px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.prescription-form-tests-list {
+  width: 100%;
+  min-height: 60px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #f3f6fb;
+  font-size: 1rem;
+  margin-bottom: 14px;
+  transition: border 0.2s;
+}
+.prescription-form-tests-list:focus {
+  border: 1.5px solid #3b82f6;
+  outline: none;
+}
+
+.prescription-form-section-extra {
+  background: #f9fafb;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(59,130,246,0.06);
+  padding: 18px 24px 18px 24px;
+  margin-bottom: 28px;
+  border: 1px solid #e5e7eb;
+} 

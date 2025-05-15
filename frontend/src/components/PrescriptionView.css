@@ -1,0 +1,129 @@
+.prescription-view-bg {
+  background: #f3f6fb;
+  min-height: 100vh;
+  padding: 32px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.prescription-view-container {
+  width: 794px; /* A4 width in px at 96dpi */
+  min-height: 1123px; /* A4 height in px at 96dpi */
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  overflow: hidden;
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.prescription-view-header {
+  background: #3b82f6;
+  color: #fff;
+  padding: 32px 48px 18px 48px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+}
+.prescription-view-header-logo {
+  font-size: 2.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+}
+.prescription-view-header-info {
+  text-align: right;
+  font-size: 1rem;
+}
+.prescription-view-header-info .prescription-no {
+  font-weight: 600;
+}
+.prescription-view-header-info .prescription-date {
+  font-size: 0.98rem;
+}
+
+.prescription-view-patient-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 48px 10px 48px;
+  border-bottom: 1.5px solid #e5e7eb;
+  background: #f9fafb;
+}
+.prescription-view-patient-label {
+  color: #2563eb;
+  font-weight: 600;
+  margin-right: 6px;
+}
+.prescription-view-patient-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 18px;
+}
+.prescription-view-patient-age {
+  font-weight: 600;
+  color: #222;
+}
+
+.prescription-view-main {
+  display: flex;
+  padding: 32px 48px 32px 48px;
+  gap: 48px;
+  flex: 1;
+}
+.prescription-view-col {
+  flex: 1;
+}
+.prescription-view-section-title {
+  font-size: 1.08rem;
+  font-weight: 600;
+  color: #2563eb;
+  margin-bottom: 8px;
+}
+.prescription-view-list {
+  margin: 0 0 12px 0;
+  padding-left: 18px;
+}
+.prescription-view-list li {
+  margin-bottom: 4px;
+  font-size: 1rem;
+}
+.prescription-view-meds-list {
+  margin: 0 0 12px 0;
+  padding-left: 18px;
+}
+.prescription-view-meds-list li {
+  margin-bottom: 6px;
+  font-size: 1rem;
+}
+.prescription-view-instructions {
+  margin-bottom: 10px;
+  font-style: italic;
+  color: #b91c1c;
+}
+.prescription-view-next-appointment {
+  font-weight: 600;
+  margin-top: 18px;
+}
+.prescription-view-footer {
+  background: #3b82f6;
+  color: #fff;
+  padding: 16px 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.98rem;
+  border-radius: 0 0 18px 18px;
+  margin-top: 18px;
+}
+.prescription-view-caduceus {
+  position: absolute;
+  top: 18px;
+  right: 48px;
+  width: 60px;
+  opacity: 0.18;
+} 
